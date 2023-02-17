@@ -2,8 +2,8 @@
 
 /**
  * main -
- * Description:
- * Return:
+ * Description: prints alphabets
+ * Return: 0
  */
 int main(void)
 {
