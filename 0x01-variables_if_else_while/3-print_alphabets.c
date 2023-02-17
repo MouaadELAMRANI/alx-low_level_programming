@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main -
+ * main -E
  * Description: prints alphabets
  * Return: 0
  */
