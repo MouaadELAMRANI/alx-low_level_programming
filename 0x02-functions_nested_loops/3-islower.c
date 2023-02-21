@@ -2,6 +2,7 @@
 
 /**
  * _islower - is lowercase ?
+ * c: character
  * Return: 1 for lowercase, 0 else
  */
 
