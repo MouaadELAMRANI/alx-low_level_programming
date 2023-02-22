@@ -2,7 +2,7 @@
 
 /**
  * main - prints fibonacci
- * Return 0
+ * Return: 0
  */
 
 int main(void)
@@ -33,7 +33,7 @@ int main(void)
 		if (fib12 + fib22 > 9999999999)
 		{
 			f1 += 1;
-			f2 %= 100000000000;
+			f2 %= 10000000000;
 		}
 
 		printf("%lu%lu", f1, f2);
