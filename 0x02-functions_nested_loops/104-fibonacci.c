@@ -11,6 +11,7 @@ int main(void)
 	unsigned long fib1 = 0, fib2 = 1, sum;
 	unsigned long fib11, fib12, fib21, fib22;
 	unsigned long f1, f2;
+
 	for (count = 0; count < 92; count++)
 	{
 		sum = fib1 + fib2;
