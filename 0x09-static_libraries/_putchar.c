@@ -5,7 +5,7 @@
  * Return: 0
  */
 
-int _putcchar(char c)
+int _putchar(char c)
 {
 	_putchar('_');
 	_putchar('p');
