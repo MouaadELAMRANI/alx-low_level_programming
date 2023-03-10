@@ -5,7 +5,7 @@
  * @str: string
  */
 
-void _puts(char *str)
+void _puts(char *s)
 {
 	int i = 0;
 
