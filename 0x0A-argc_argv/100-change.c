@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - printmin
- * argc: arg count
- * argv: args
+ * main - print min
+ * @argc: arg count
+ * @argv: args
  * Return: 0
  */
 
