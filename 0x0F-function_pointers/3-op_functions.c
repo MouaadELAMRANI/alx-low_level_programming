@@ -6,7 +6,6 @@
   * op_add - add
   * @a: a
   * @b: b
-  *
   * Return: int
   */
 

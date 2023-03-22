@@ -3,9 +3,8 @@
 #include <string.h>
 
 /**
-  * get_op_func - function
+  * *get_op_func - function
   * @s: operator
-  *
   * Return: 0
   */
 
