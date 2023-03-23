@@ -5,7 +5,7 @@
 /**
   * main - main
   * @argc: argc
-  * @*argv: argv
+  * @argv: argv
   * Return: 0
   */
 
