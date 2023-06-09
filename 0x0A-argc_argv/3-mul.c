@@ -3,8 +3,8 @@
 
 /**
  * main - multiply
- * argc: arg count
- * argv: arg vect
+ * @argc: arg count
+ * @argv: arg vect
  * Return: int
  */
 int main(int argc, char **argv)
