@@ -4,9 +4,9 @@
  * main - prints all args
  * @argc: arg count
  * @argv: arg vect
- * Return: args
+ * Return: int
  */
-char main(int argc, char **argv)
+int main(int argc, char **argv)
 {
 	int i;
 
