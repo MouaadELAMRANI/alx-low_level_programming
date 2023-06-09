@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 	int total, count;
 	unsigned int i;
 	char *p;
-	int cents[] = {2, 5, 10, 25};
+	int cents[] = {25, 10, 5, 2};
 
 	if (argc != 2)
 	{
