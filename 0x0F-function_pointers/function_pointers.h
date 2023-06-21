@@ -3,7 +3,7 @@
 
 /**
  * File: main
- * Desc:
+ * Desc: header file
  */
 void print_name(char *name, void (*f)(char *));
 
