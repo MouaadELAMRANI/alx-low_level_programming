@@ -1,7 +1,7 @@
-#include "3-calc.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include "3-calc.h"
 
 /**
  * main - print op
@@ -29,7 +29,7 @@ int main(int argc, char *argv[])
 		exit(100);
 	}
 
-	printf("%d\n, (*get_op_func(argv[2]))(atoi(argv[i]), atoi(argv[3])));
+	printf("%d\n", (*get_op_func(argv[2]))(atoi(argv[1]), atoi(argv[3])));
 
 	return (0);
 }
