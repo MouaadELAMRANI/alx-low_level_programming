@@ -1,9 +1,11 @@
 #include "variadic_functions.h"
 
 /**
- * print_all - prints all
- * @format: format
+ * print_all - Prints all of the arguments when specified
+ * @format: specifies the necessary operations
+ * Return: void
  */
+
 void print_all(const char * const format, ...)
 {
 	int i;
@@ -27,6 +29,7 @@ void print_all(const char * const format, ...)
 				break;
 			case 'f':
 				printf("%f", va_arg(a_list, double));
+				flag = 0;
 				break;
 			case 's':
 				str = va_arg(a_list, char*);
