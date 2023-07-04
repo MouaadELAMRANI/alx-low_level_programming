@@ -4,7 +4,7 @@
 /**
  * insert_nodeint_at_index - insert at index
  * @head: pointer
- * @indx: indx
+ * @idx: indx
  * @n: node
  * Return: pointer
  */
