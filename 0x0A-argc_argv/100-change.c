@@ -2,11 +2,20 @@
 #include <stdlib.h>
 
 /**
+<<<<<<< HEAD
  * main - prints change
  * @argc: arg count
  * @argv: arg vects
  * Return: 0
  */
+=======
+ * main - print min
+ * @argc: arg count
+ * @argv: args
+ * Return: 0
+ */
+
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 int main(int argc, char **argv)
 {
 	int total, count;
@@ -37,9 +46,13 @@ int main(int argc, char **argv)
 			}
 		}
 		if (total == 1)
+<<<<<<< HEAD
 		{
 			count++;
 		}
+=======
+			count++;
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 	}
 	else
 	{

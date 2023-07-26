@@ -2,10 +2,19 @@
 #include <stdio.h>
 
 /**
+<<<<<<< HEAD
  * print_opcodes - print opcodes
  * @a: adress
  * @n: number
  */
+=======
+ * print_opcodes - print
+ * @a: address
+ * @n: number
+ * Return: void
+ */
+
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 void print_opcodes(char *a, int n)
 {
 	int i;
@@ -17,6 +26,7 @@ void print_opcodes(char *a, int n)
 			printf(" ");
 	}
 	printf("\n");
+<<<<<<< HEAD
 }
 
 /**
@@ -25,6 +35,18 @@ void print_opcodes(char *a, int n)
  * @argv: v arg
  * Return: 0
  */
+=======
+
+}
+
+/**
+ * main - prints
+ * @argc: number of arguments
+ * @argv: array of pointers
+ * Return: always O
+ */
+
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 int main(int argc, char **argv)
 {
 	int n;

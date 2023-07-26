@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdlib.h>
 
 /**
@@ -7,6 +8,16 @@
  * @height: height
  * Return: pointer
  */
+=======
+
+/**
+ * alloc_grid - alloc
+ * @width: int
+ * @height: int
+ * Return: pointer
+ */
+
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 int **alloc_grid(int width, int height)
 {
 	int **array, i, j;

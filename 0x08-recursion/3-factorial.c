@@ -5,6 +5,10 @@
  * @n: int
  * Return: int
  */
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 int factorial(int n)
 {
 	int x;

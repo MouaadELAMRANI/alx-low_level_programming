@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdlib.h>
 
 /**
@@ -6,6 +7,15 @@
  * @str: string
  * Return: pointer
  */
+=======
+
+/**
+ * _strdup - pointer
+ * @str: char
+ * Return: pointer
+ */
+
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 char *_strdup(char *str)
 {
 	char *copy;
@@ -27,4 +37,7 @@ char *_strdup(char *str)
 
 	return (copy);
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e

@@ -2,11 +2,20 @@
 #include <stdlib.h>
 
 /**
+<<<<<<< HEAD
  * main - adds
  * @argc: arg count
  * @argv: arg vect
  * Return: int
  */
+=======
+ * main - adds pos numbers
+ * @argc: arg count
+ * @argv: args
+ * Return: 0
+ */
+
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 int main(int argc, char **argv)
 {
 	int i, n, sum = 0;

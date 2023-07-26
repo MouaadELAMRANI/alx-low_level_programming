@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdlib.h>
 
 /**
@@ -12,6 +13,21 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	char *p;
 	unsigned int i, max = new_size;
+=======
+
+/**
+ * _realloc - reallocates a memory block using malloc and free
+ * @ptr: pointer to the memory previously allocated
+ * @old_size:is the size, in bytes, of the allocated space for ptr
+ * @new_size: the new size, in bytes of the new memory block
+ * Return: pointer allocate new size memory, or NULL
+ */
+
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
+{
+	char *p;
+	unsigned int i, n = new_size;
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 	char *oldp = ptr;
 
 	if (ptr == NULL)
@@ -26,13 +42,21 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	}
 	else if (new_size == old_size)
 		return (ptr);
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 	p = malloc(new_size);
 	if (p == NULL)
 		return (NULL);
 	if (new_size > old_size)
+<<<<<<< HEAD
 		max = old_size;
 	for (i = 0; i < max; i++)
+=======
+		n = old_size;
+	for (i = 0; i < n; i++)
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 		p[i] = oldp[i];
 	free(ptr);
 	return (p);

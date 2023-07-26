@@ -1,12 +1,22 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdlib.h>
+=======
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 
 /**
  * create_array - create array
  * @size: int
+<<<<<<< HEAD
  * @c: init value
  * Return: pointer
  */
+=======
+ * @c: char
+ * Return: pointer
+ */
+
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 char *create_array(unsigned int size, char c)
 {
 	char *array;

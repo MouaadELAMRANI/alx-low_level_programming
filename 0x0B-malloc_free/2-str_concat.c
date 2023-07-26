@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -8,6 +9,16 @@
  * @s2: string
  * Return: pointer
  */
+=======
+
+/**
+ * str_concat - concat
+ * @s1: char
+ * @s2: char
+ * Return: pointer
+ */
+
+>>>>>>> 9adfffcd78e627f7c0ebd812ad37f0f174aec34e
 char *str_concat(char *s1, char *s2)
 {
 	int i, j, len1, len2, len;
